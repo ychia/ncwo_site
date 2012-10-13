@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="X-UA-Compatible" value="IE=8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<html lang="en-US">
+<head>
+
+<title>New Covenant Christian Center, International: Present Day Truth</title>
+<meta name="Keywords" content="new,covenant,christian,center,world,outreach,philippines,kenya,bible"/>
+<meta name="Description" content="New Covenant Christian Center spreading the truth of God's Holy Word to the nations in the last days."/>
+
+<!--#include virtual="js-includes.html" -->
+
+<link rel="stylesheet" type="text/css" href="css/present_day.css"/>
+
+</head>
+<body class="present_day_truth">
+	<div id="main" style="width: 1200px;">
+		<!--#include virtual="nav.html" -->
+
+		<h1>Present-Day Truth</h1>
+		<div class="clearfix"></div>
+
+		<!-- try to keep this somewhat alphabetical -->
+		<div id="nav_links">
+			<ul>
+				<li class="subcontent_selected" select="introduction">Introduction</li>
+				<li select="anchored_in_storms">Anchored in the Storms of Life</li>
+				<li select="backslidden_heart">The Backslidden Heart</li>
+				<li select="being_under_blood">Being under the Blood</li>
+				<li select="bishop_1">Bishop Ministry, Part 1</li>
+				<li select="bishop_2">Bishop Ministry, Part 2</li>
+				<li select="call_anguish">A Call To Anguish</li>
+				<li select="price_disobedience">Costs of Disobedience, Part 1</li>
+				<li select="price_disobedience_2">Costs of Disobedience, Part 2</li>
+				<li select="jesus_only">The Fallacy of the 'Jesus Only' Doctrine</li>
+				<li select="christianity_1">Kingdom of God vs Chrisitianity, Part 1</li>
+				<li select="christianity_2">Kingdom of God vs Chrisitianity, Part 2</li>
+				<li select="perish_last_days">Leading of the Spirit</li>
+				<li select="light_salt_conquerors">Light - Salt - Conquerors</li>
+				<li select="fasting">Notes on Fasting</li>
+				<li select="sin_gods_eyes">Seeing Sin Through God's Eyes</li>
+				<li select="whom_shall_go_1">To Whom Shall We Go, Part 1</li>
+				<li select="whom_shall_go_2">To Whom Shall We Go, Part 2</li>
+				<li select="sacrifice_living">The Sacrifice of Living</li>
+				<li select="halloween">The Darkness of Halloween</li>
+				<li select="birthdays">The Spirit Behind Birthdays</li>
+				<li select="spirit_christmas">The Spirit Behind Christmas</li>
+				<li select="spirit_espanol">Espirito Detras de la Navidad</li>
+				<li select="easter">The Spirit Behind Easter</li>
+				<li select="valentines">The Spirit Behind Valentine's Day</li>
+				<li select="unconditional_love">Unconditional Love</li>
+			</ul>
+		</div>
+		<!-- note- order doesn't matter here -->
+		<div id="nav_content" style="max-height: 650px;">			
+			<div id="introduction"></div>
+			<div style="display: none;" id="anchored_in_storms"></div>
+			<div style="display: none;" id="being_under_blood"></div>
+			<div style="display: none;" id="jesus_only"></div>
+			<div style="display: none;" id="bishop_1"></div>
+			<div style="display: none;" id="bishop_2"></div>
+			<div style="display: none;" id="call_anguish"></div>
+			<div style="display: none;" id="whom_shall_go_1"></div>
+			<div style="display: none;" id="whom_shall_go_2"></div>
+			<div style="display: none;" id="light_salt_conquerors"></div>
+			<div style="display: none;" id="spirit_christmas"></div>
+			<div style="display: none;" id="spirit_espanol"></div>
+			<div style="display: none;" id="valentines"></div>
+			<div style="display: none;" id="birthdays"></div>
+			<div style="display: none;" id="easter"></div>
+			<div style="display: none;" id="halloween"></div>
+			<div style="display: none;" id="christianity_1"></div>
+			<div style="display: none;" id="christianity_2"></div>
+			<div style="display: none;" id="fasting"></div>
+			<div style="display: none;" id="perish_last_days"></div>
+			<div style="display: none;" id="sin_gods_eyes"></div>
+			<div style="display: none;" id="unconditional_love"></div>
+			<div style="display: none;" id="sacrifice_living"></div>
+			<div style="display: none;" id="backslidden_heart"></div>
+			<div style="display: none;" id="price_disobedience"></div>
+			<div style="display: none;" id="price_disobedience_2"></div>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+
+<!--#include virtual="footer.html" -->
+
+</body>
+</html>

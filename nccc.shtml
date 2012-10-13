@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="X-UA-Compatible" value="IE=8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<html lang="en-US">
+<head>
+
+<title>New Covenant Christian Center, International</title>
+<meta name="Keywords" content="new,covenant,christian,center,world,outreach,philippines,kenya,bible"/>
+<meta name="Description" content="New Covenant Christian Center International is a non-denominational body dedicated to the vision of the nations, with permanent outreaches in the Philippines and Kenya."/>
+
+<!--#include virtual="js-includes.html" -->
+
+<!-- slides stuff -->
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/nccc.css"/>
+
+<script src="js/slides.min.jquery.js"></script>
+<script>
+	$(function(){
+		$('#nccc_slides').slides({
+			preload: true,
+			preloadImage: 'img/loading.gif',
+			play: 5000,
+			pause: 2500,
+			hoverPause: true
+		});
+	});
+</script>
+
+</head>
+<body>
+	<div id="main">
+		<!--#include virtual="nav.html" -->
+
+		<h1>New Covenant Christian Center, International</h1>
+		<div id="logo"></div>
+		<div style="clear: both;"></div>
+		<div class="slideshow_container">
+			<div id="nccc_slides" class="slides">
+				<div class="slides_container">
+					<div class="slide">
+						<img src="img/Elders.jpeg" width="800" height="600" alt="Slide 0">
+						<div class="caption" style="bottom:0">
+							<p>The Elders: Charles, Wade, Kim, Frank, Luke</p>
+						</div>
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_1.JPG" width="800" height="600" alt="Slide 1">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_2.JPG" width="800" height="600" alt="Slide 2">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_3.JPG" width="800" height="600" alt="Slide 3">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_4.JPG" width="800" height="600" alt="Slide 4">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_5.JPG" width="800" height="600" alt="Slide 5">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_6.JPG" width="800" height="600" alt="Slide 6">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_7.JPG" width="800" height="600" alt="Slide 7">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_8.JPG" width="800" height="600" alt="Slide 8">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_9.JPG" width="800" height="600" alt="Slide 9">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_10.JPG" width="800" height="600" alt="Slide 10">
+					</div>
+					<div class="slide">
+						<img src="img/nccc_sj_11.JPG" width="800" height="600" alt="Slide 11">
+					</div>
+				</div>
+				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+		</div>
+		<div class="box brown">
+		<h4>And some days after Paul said unto Barnabus, Let us go again and visit our brethren in every city where we have preached the Word of the Lord, and see how they do. <br/> <br/> -Acts 15:36</h4>
+				
+
+		<p>And Jesus came and spake unto them, saying, All power is given unto me in Heaven and in earth. Go Ye therefore, and teach all nations, baptizing them in the name of the Father, of the Son, and of the Holy Ghost. Teaching them to observe all things whatsover I have commanded you: and, lo, I am with you always, even unto the end of the world. AMEN.</p>
+
+		<p>Matthew 28:18-20</p>
+
+		<p>New Covenant Christian Center, International is a ministry dedicated to the fulfillment of this great commandment given by our Lord Jesus Christ. In being called to be sent to the nations, not only do we seek the lost and preach repentance unto salvation, but more importantly we go to MAKE DISCIPLES. In verse 19 of Mt.28, that word "teach all nations" is built off of the Greek word--Matheteuo--which means to become a pupil, a student, a learner OR to make disciples. This ministry is dedicated to the Apostolic Order of following the Divine Order of that which was spoken by Jesus Christ. It was the SENT ministry, or Apostolic ministry that was ordained to preach and teach and set order in building the Kingdom of God. As you enter into this site, you will find NO views and NO opinions of men. You will find NO doctrines of men, but ONLY the pure Word of God as established by the Kings James Bible, the FINAL authority and most pure form of written truth we have. May you be abundantly blessed as you enter into the Kingdom of God and learn to expose the unfruitful works of "Christianity" and the doctrines of men. You MUST know one thing before entering. Pick up your Bible and as you learn with joy and anticipation, PROVE all things--I Thess.5:21 and Search the Scriptures daily--Acts 17:10-11 to see IF these things be so, AND THEN BELIEVE!! Follow not flesh and blood nor the words of men, but allow the HOLY SPIRIT to truly be your teacher as HE leads and guides and directs your path into all TRUTH--Jn.17:17 THY WORD IS TRUTH.</p>
+		</div>
+	</div>
+
+
+<!--#include virtual="footer.html" -->
+
+</body>
+</html>

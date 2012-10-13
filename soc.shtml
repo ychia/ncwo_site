@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="X-UA-Compatible" value="IE=8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<html lang="en-US">
+<head>
+
+<title>New Covenant Christian Center, International: School of Christ</title>
+<meta name="Keywords" content="new,covenant,christian,center,world,outreach,philippines,kenya,bible,kjv,school,christ"/>
+<meta name="Description" content="New Covenant Christian Center School of Christ: raising and training disciples for the work of ministry."/>
+<link rel="stylesheet" href="css/demo_table.css" type="text/css" media="print, projection, screen" />
+
+<!--#include virtual="js-includes.html" -->
+
+<link rel="stylesheet" type="text/css" href="css/soc.css"/>
+
+<script type="text/javascript" src="http://mediaplayer.yahoo.com/latest">
+    /* This will include the yahoo media player on the page */
+</script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script> 
+
+
+<script type="text/javascript">
+
+    var apiReadyHandler = function ()
+    {
+        /* Once API ready handler is invoked, YAHOO.MediaPlayer class can be accessed safely */
+        /* For example: Add other event listeners **/
+        YAHOO.MediaPlayer.onPlaylistUpdate.subscribe(onPlaylistUpateHandler)
+    }
+
+    var onPlaylistUpateHandler = function (playlistArray)
+    {
+        /* Give it some time to scrape all the elements before initializing tables (this hides some, yahoo player can't pick those up) */
+        setTimeout(function() {
+          $("#soc_recordings table").dataTable({"aaSorting": [[ 0, "asc" ]]});
+        }, 1000);
+
+        /*setTimeout(function() {
+          $("#soc_recordings table").dataTable({
+            "aaSorting": [[ 0, "asc" ]], 
+            "aoColumnDefs": [{ "bSortable": false, "aTargets": [ 1 ] }]
+          });
+        }, 1000);*/
+        
+    }
+
+    YAHOO.MediaPlayer.onAPIReady.subscribe(apiReadyHandler);
+
+</script>
+
+
+
+
+</head>
+<body>
+	<div id="main" style="text-align: center;">
+		<!--#include virtual="nav.html" -->
+		<h1 class="soc_header">The School of Christ</h1>
+		
+		<div class="clearfix"></div>
+
+		<div id="featured_recordings">
+      
+	
+      <div id="soc_banner" class="box" style="background-color: #9F8D74; background-image: none;">
+        <img style="margin-right: 65px;" src="img/soc.jpg"/>
+        <img src="img/tabernacle.jpg">
+        <div class="clearfix" style="height: 20px; width: 100%"></div>
+        <strong style="float: left;">"Boldness - They had been with Jesus" -Acts 4:13</strong>
+        <strong style="float: right; margin-right: 150px;">"The Church in the Wilderness" -Acts 7:38</strong>
+      </div>
+
+      </br>
+
+      <div id="soc_material">
+        <div id="soc_notebooks">
+          <h2>SOC Notebooks:</h2>
+         </br>
+          <a target="_blank" href="content/soc-1.pdf"><img style="margin: 0;" src="img/pdf_icon.gif"/>Notebook 1</a>
+        </div>
+        <div class="clearfix"></div>
+
+        <div id="soc_recordings">
+            <table><thead><tr><th>Title (to download, right-click and save target/link as)</th><th>Teacher</th><th>Date</th></tr></thead><tbody><tr><td><a href="audio/SOC 1 FOUNDATIONAL VISION - Kim C. Gossett - Tuesday 09-25-2012.mp3">SOC 1 FOUNDATIONAL VISION </a></td><td> Kim C. Gossett </td><td>09-25-2012</td></tr><tr><td><a href="audio/SOC 2 CHOSEN, REDEEMED, SEALED - Kim C. Gossett - Tuesday 10-02-12.mp3">SOC 2 CHOSEN, REDEEMED, SEALED </a></td><td> Kim C. Gossett </td><td>10-02-12</td></tr><tr><td><a href="audio/SOC 3 THE SPERMA OF GOD  PT 1- Kim C. Gossett - Tuesday 10-09-12.mp3">SOC 3 THE SPERMA OF GOD  PT 1</a></td><td> Kim C. Gossett </td><td>10-09-12</td></tr></tbody></table>
+        </div>
+      </div>
+
+
+		</div>
+		
+		<div class="clearfix"></div>
+	</div>
+
+
+
+<!--#include virtual="footer.html" -->
+
+</body>
+
+
+</html>

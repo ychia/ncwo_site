@@ -1,0 +1,18 @@
+/* audio page specific */
+#friday_recordings, #sunday_recordings {
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: left;
+}
+#friday_recordings td:first-child, #sunday_recordings td:first-child{
+  max-width: 250px;
+}
+.external_link_wc {
+  cursor: pointer;
+  width: 130px;
+  margin: auto;
+  font-size: 12px;
+}
+#wc_audio_popup {
+  font-size: 12px;
+}
